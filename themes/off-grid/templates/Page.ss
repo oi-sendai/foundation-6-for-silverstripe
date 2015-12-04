@@ -20,6 +20,7 @@ Change it, enhance it and most importantly enjoy it!
 	<![endif]-->
 	
     <link rel="stylesheet" href="{$ThemeDir}/complete-f6/css/foundation.css" />
+    <link rel="stylesheet" href="{$ThemeDir}/foundation-icons/foundation-icons.css" />
     <link rel="stylesheet" href="{$ThemeDir}/css/app.css" />
 	<%-- require themedCSS('reset') --%>
 	<%-- require themedCSS('typography') --%>
