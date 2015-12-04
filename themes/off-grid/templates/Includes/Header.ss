@@ -1,26 +1,15 @@
-<%--
-<header class="header" role="banner">
-	<div class="inner">
-		<div class="unit size4of4 lastUnit">
-			<a href="$BaseHref" class="brand" rel="home">
-				<h1>$SiteConfig.Title</h1>
-				<% if $SiteConfig.Tagline %>
-				<p>$SiteConfig.Tagline</p>
-				<% end_if %>
-			</a>
-			<% if $SearchForm %>
-				<span class="search-dropdown-icon">L</span>
-				<div class="search-bar">
-					$SearchForm
-				</div>
-			<% end_if %>
-			<% include Navigation %>
-		</div>
+<header class="header-wrap">
+	<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+	  <button class="menu-icon" type="button" data-toggle></button>
+	  <div class="title-bar-title">Menu</div>
+	</div>
+
+	<div class="top-bar" id="example-menu">
+	  <div class="top-bar-left">
+	  	<h1><a href="$BaseHref" class="brand" rel="home">$SiteConfig.Title</a></h1>
+	  </div>
+	  <div class="top-bar-right">
+			<% include TopNavigation %>
+	  </div>
 	</div>
 </header>
---%>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation 6 for Silverstripe</h1>
-      </div>
-    </div>

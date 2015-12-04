@@ -36,5 +36,6 @@ web.config
 /mysite/*
 !mysite/code
 /mysite/code/*
+!mysite/code/Page.php
 !mysite/code/KitchenSink.php
 

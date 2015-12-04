@@ -1,5 +1,6 @@
 <%--Include SidebarMenu recursively --%>
 <% if LinkOrSection = section %>
+<ul class="menu vertical simple">
 	<% if $Children %>
 		<% loop $Children %>
 			<li class="$LinkingMode">
@@ -17,4 +18,5 @@
 			</li>
 		<% end_loop %>
 	<% end_if %>
+</ul>
 <% end_if %>

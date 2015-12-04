@@ -32,22 +32,17 @@ Change it, enhance it and most importantly enjoy it!
 	<!--<![endif]-->
   </head>
   <body class="$ClassName<% if not $Menu(2) %> no-sidebar<% end_if %>" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
-<% include Header %>
+	
+	<% include Header %>
 
-    
-
-		$Layout
-
-
-
-
-
+	$Layout
 
     <% include Footer %>
 
-	<% require javascript('framework/thirdparty/jquery/jquery.js') %>
+	<%-- require javascript('framework/thirdparty/jquery/jquery.js') --%>
+    <script src="{$ThemeDir}/complete-f6/js/vendor/jquery.min.js"></script>
     <script src="{$ThemeDir}/complete-f6/js/vendor/what-input.min.js"></script>
-    <script src="{$ThemeDir}/complete-f6/js/foundation.min.js"></script>
+    <script src="{$ThemeDir}/complete-f6/js/foundation.js"></script>
     <script src="{$ThemeDir}/complete-f6/js/app.js"></script>
 	<script src="{$ThemeDir}/javascript/script.js"></script>
   </body>
